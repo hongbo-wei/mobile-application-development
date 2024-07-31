@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FDAE24D2C35A42F00F47A2A /* Personal_Finance_and_Budgeting_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAE24C2C35A42F00F47A2A /* Personal_Finance_and_Budgeting_AppApp.swift */; };
+		8FDAE24F2C35A42F00F47A2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAE24E2C35A42F00F47A2A /* ContentView.swift */; };
+		8FDAE2512C35A43000F47A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDAE2502C35A43000F47A2A /* Assets.xcassets */; };
+		8FDAE2552C35A43000F47A2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDAE2542C35A43000F47A2A /* Preview Assets.xcassets */; };
+		8FDAE25C2C35A45800F47A2A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAE25B2C35A45800F47A2A /* ExpenseModel.swift */; };
+		8FDAE25E2C35A47300F47A2A /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAE25D2C35A47300F47A2A /* BudgetModel.swift */; };
+		8FDAE2622C35A4D200F47A2A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAE2612C35A4D200F47A2A /* DashboardView.swift */; };
+		8FDAE2662C35A5CC00F47A2A /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAE2652C35A5CC00F47A2A /* ExpenseViewModel.swift */; };
+		8FDAE2682C35A5DE00F47A2A /* ExpenseEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAE2672C35A5DE00F47A2A /* ExpenseEntryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FDAE26E2C35AAFB00F47A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDAE2692C35AAFA00F47A2A /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = DGCharts;
+		};
+		8FDAE2702C35AAFB00F47A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDAE2692C35AAFA00F47A2A /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = DGChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FDAE2492C35A42F00F47A2A /* Personal Finance and Budgeting App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Finance and Budgeting App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDAE24C2C35A42F00F47A2A /* Personal_Finance_and_Budgeting_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Finance_and_Budgeting_AppApp.swift; sourceTree = "<group>"; };
+		8FDAE24E2C35A42F00F47A2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8FDAE2502C35A43000F47A2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FDAE2522C35A43000F47A2A /* Personal_Finance_and_Budgeting_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Personal_Finance_and_Budgeting_App.entitlements; sourceTree = "<group>"; };
+		8FDAE2542C35A43000F47A2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FDAE25B2C35A45800F47A2A /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		8FDAE25D2C35A47300F47A2A /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		8FDAE2612C35A4D200F47A2A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8FDAE2652C35A5CC00F47A2A /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		8FDAE2672C35A5DE00F47A2A /* ExpenseEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseEntryView.swift; sourceTree = "<group>"; };
+		8FDAE2692C35AAFA00F47A2A /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FDAE2462C35A42F00F47A2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FDAE2402C35A42F00F47A2A = {
+			isa = PBXGroup;
+			children = (
+				8FDAE2692C35AAFA00F47A2A /* Charts.xcodeproj */,
+				8FDAE24B2C35A42F00F47A2A /* Personal Finance and Budgeting App */,
+				8FDAE24A2C35A42F00F47A2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FDAE24A2C35A42F00F47A2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FDAE2492C35A42F00F47A2A /* Personal Finance and Budgeting App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FDAE24B2C35A42F00F47A2A /* Personal Finance and Budgeting App */ = {
+			isa = PBXGroup;
+			children = (
+				8FDAE2532C35A43000F47A2A /* Preview Content */,
+				8FDAE25B2C35A45800F47A2A /* ExpenseModel.swift */,
+				8FDAE24C2C35A42F00F47A2A /* Personal_Finance_and_Budgeting_AppApp.swift */,
+				8FDAE24E2C35A42F00F47A2A /* ContentView.swift */,
+				8FDAE2502C35A43000F47A2A /* Assets.xcassets */,
+				8FDAE2522C35A43000F47A2A /* Personal_Finance_and_Budgeting_App.entitlements */,
+				8FDAE25D2C35A47300F47A2A /* BudgetModel.swift */,
+				8FDAE2612C35A4D200F47A2A /* DashboardView.swift */,
+				8FDAE2652C35A5CC00F47A2A /* ExpenseViewModel.swift */,
+				8FDAE2672C35A5DE00F47A2A /* ExpenseEntryView.swift */,
+			);
+			path = "Personal Finance and Budgeting App";
+			sourceTree = "<group>";
+		};
+		8FDAE2532C35A43000F47A2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8FDAE2542C35A43000F47A2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FDAE26A2C35AAFA00F47A2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FDAE26F2C35AAFB00F47A2A /* DGCharts.framework */,
+				8FDAE2712C35AAFB00F47A2A /* DGChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FDAE2482C35A42F00F47A2A /* Personal Finance and Budgeting App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FDAE2582C35A43000F47A2A /* Build configuration list for PBXNativeTarget "Personal Finance and Budgeting App" */;
+			buildPhases = (
+				8FDAE2452C35A42F00F47A2A /* Sources */,
+				8FDAE2462C35A42F00F47A2A /* Frameworks */,
+				8FDAE2472C35A42F00F47A2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personal Finance and Budgeting App";
+			productName = "Personal Finance and Budgeting App";
+			productReference = 8FDAE2492C35A42F00F47A2A /* Personal Finance and Budgeting App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FDAE2412C35A42F00F47A2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8FDAE2482C35A42F00F47A2A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8FDAE2442C35A42F00F47A2A /* Build configuration list for PBXProject "Personal Finance and Budgeting App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FDAE2402C35A42F00F47A2A;
+			productRefGroup = 8FDAE24A2C35A42F00F47A2A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8FDAE26A2C35AAFA00F47A2A /* Products */;
+					ProjectRef = 8FDAE2692C35AAFA00F47A2A /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8FDAE2482C35A42F00F47A2A /* Personal Finance and Budgeting App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8FDAE26F2C35AAFB00F47A2A /* DGCharts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DGCharts.framework;
+			remoteRef = 8FDAE26E2C35AAFB00F47A2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FDAE2712C35AAFB00F47A2A /* DGChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DGChartsTests.xctest;
+			remoteRef = 8FDAE2702C35AAFB00F47A2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FDAE2472C35A42F00F47A2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDAE2552C35A43000F47A2A /* Preview Assets.xcassets in Resources */,
+				8FDAE2512C35A43000F47A2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FDAE2452C35A42F00F47A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FDAE2622C35A4D200F47A2A /* DashboardView.swift in Sources */,
+				8FDAE25E2C35A47300F47A2A /* BudgetModel.swift in Sources */,
+				8FDAE2662C35A5CC00F47A2A /* ExpenseViewModel.swift in Sources */,
+				8FDAE25C2C35A45800F47A2A /* ExpenseModel.swift in Sources */,
+				8FDAE24F2C35A42F00F47A2A /* ContentView.swift in Sources */,
+				8FDAE2682C35A5DE00F47A2A /* ExpenseEntryView.swift in Sources */,
+				8FDAE24D2C35A42F00F47A2A /* Personal_Finance_and_Budgeting_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FDAE2562C35A43000F47A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FDAE2572C35A43000F47A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8FDAE2592C35A43000F47A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Personal Finance and Budgeting App/Personal_Finance_and_Budgeting_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Personal Finance and Budgeting App/Preview Content\"";
+				DEVELOPMENT_TEAM = M3B4UGJAAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wei-Enterprises-Inc.Personal-Finance-and-Budgeting-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FDAE25A2C35A43000F47A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Personal Finance and Budgeting App/Personal_Finance_and_Budgeting_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Personal Finance and Budgeting App/Preview Content\"";
+				DEVELOPMENT_TEAM = M3B4UGJAAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wei-Enterprises-Inc.Personal-Finance-and-Budgeting-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FDAE2442C35A42F00F47A2A /* Build configuration list for PBXProject "Personal Finance and Budgeting App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDAE2562C35A43000F47A2A /* Debug */,
+				8FDAE2572C35A43000F47A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FDAE2582C35A43000F47A2A /* Build configuration list for PBXNativeTarget "Personal Finance and Budgeting App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDAE2592C35A43000F47A2A /* Debug */,
+				8FDAE25A2C35A43000F47A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FDAE2412C35A42F00F47A2A /* Project object */;
+}
